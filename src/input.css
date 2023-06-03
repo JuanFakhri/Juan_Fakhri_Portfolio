@@ -28,3 +28,170 @@ body {
 .hamburger-active>span:nth-child(3) {
     @apply -rotate-45;
 }
+
+/*=============== SKILLS ===============*/
+.section {
+    padding-block: 2.5rem;
+}
+
+.skill__container {
+    row-gap: 3.5rem;
+}
+
+.skills__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: .5rem;
+    font-size: var(--small-font-size);
+    font-weight: var(--font-semi-boldfont-semi);
+    margin-bottom: 2.5rem;
+}
+
+.skills__title i {
+    font-size: 1rem;
+    font-weight: initial;
+}
+
+.skills__info,
+.skills__data,
+.skills__blob {
+    display: grid;
+}
+
+.skills__info {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem 2rem;
+}
+
+.skills__data {
+    justify-content: center;
+    text-align: center;
+}
+
+.skills__blob {
+    width: 82px;
+    height: 100px;
+    background-color: whitesmoke;
+    border-radius: 3rem;
+    place-items: center;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+    margin-bottom: 1rem;
+}
+
+.skills__blob img {
+    width: 45px;
+}
+
+.skills__name {
+    font-size: var(--small-font-size);
+    margin-bottom: .25rem;
+    color: white;
+}
+
+.skills__subtitle {
+    font-size: var(--tiny-font-size);
+    color: whitesmoke;
+}
+
+.skills__blob:hover {
+    background-color: #0E38E9;
+}
+
+/* Animation skills */
+.skills__blob:hover img {
+    animation: bounce-skills .6s duration timing-function delay iteration-count direction fill-mode;
+    -webkit-animation: bounce-skills .6s;
+}
+
+@keyframes bounce {
+
+    0% {
+        transform: translate(0);
+        -webkit-transform: translate(0);
+        -moz-transform: translate(0);
+        -ms-transform: translate(0);
+        -o-transform: translate(0);
+    }
+
+    20% {
+        transform: translateY(-6px);
+        -webkit-transform: translateY(-6px);
+        -moz-transform: translateY(-6px);
+        -ms-transform: translateY(-6px);
+        -o-transform: translateY(-6px);
+    }
+
+    40% {
+        transform: translate(0);
+        -webkit-transform: translate(0);
+        -moz-transform: translate(0);
+        -ms-transform: translate(0);
+        -o-transform: translate(0);
+    }
+
+    60% {
+        transform: translateY(-3px);
+        -webkit-transform: translateY(-3px);
+        -moz-transform: translateY(-3px);
+        -ms-transform: translateY(-3px);
+        -o-transform: translateY(-3px);
+    }
+
+    80% {
+        transform: translate(0);
+        -webkit-transform: translate(0);
+        -moz-transform: translate(0);
+        -ms-transform: translate(0);
+        -o-transform: translate(0);
+    }
+}
+
+.bounce-animate:hover {
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce-skills {
+    0% {
+        transform: translate(0);
+        -webkit-transform: translate(0);
+        -moz-transform: translate(0);
+        -ms-transform: translate(0);
+        -o-transform: translate(0);
+    }
+
+    20% {
+        transform: translateY(-6px);
+        -webkit-transform: translateY(-6px);
+        -moz-transform: translateY(-6px);
+        -ms-transform: translateY(-6px);
+        -o-transform: translateY(-6px);
+    }
+
+    40% {
+        transform: translate(0);
+        -webkit-transform: translate(0);
+        -moz-transform: translate(0);
+        -ms-transform: translate(0);
+        -o-transform: translate(0);
+    }
+
+    60% {
+        transform: translateY(-3px);
+        -webkit-transform: translateY(-3px);
+        -moz-transform: translateY(-3px);
+        -ms-transform: translateY(-3px);
+        -o-transform: translateY(-3px);
+    }
+
+    80% {
+        transform: translate(0);
+        -webkit-transform: translate(0);
+        -moz-transform: translate(0);
+        -ms-transform: translate(0);
+        -o-transform: translate(0);
+    }
+}
