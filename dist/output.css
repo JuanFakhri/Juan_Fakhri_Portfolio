@@ -796,6 +796,10 @@ video {
   padding: 1rem;
 }
 
+.p-12 {
+  padding: 3rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -836,6 +840,10 @@ video {
 
 .pt-36 {
   padding-top: 9rem;
+}
+
+.pl-6 {
+  padding-left: 1.5rem;
 }
 
 .text-center {
@@ -1009,6 +1017,7 @@ body {
   font-size: var(--small-font-size);
   font-weight: var(--font-semi-boldfont-semi);
   margin-bottom: 2.5rem;
+  color: rgb(251, 251, 251);
 }
 
 .skills__title i {
@@ -1052,12 +1061,12 @@ body {
 .skills__name {
   font-size: var(--small-font-size);
   margin-bottom: .25rem;
-  color: white;
+  color: #e0f5ff;
 }
 
 .skills__subtitle {
   font-size: var(--tiny-font-size);
-  color: whitesmoke;
+  color: rgb(210, 213, 249);
 }
 
 .skills__blob:hover {
@@ -1193,6 +1202,13 @@ body {
 .group:hover .group-hover\:text-primary3 {
   --tw-text-opacity: 1;
   color: rgb(14 56 233 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
 }
 
 @media (min-width: 768px) {

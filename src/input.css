@@ -46,6 +46,7 @@ body {
     font-size: var(--small-font-size);
     font-weight: var(--font-semi-boldfont-semi);
     margin-bottom: 2.5rem;
+    color: rgb(251, 251, 251);
 }
 
 .skills__title i {
@@ -89,12 +90,12 @@ body {
 .skills__name {
     font-size: var(--small-font-size);
     margin-bottom: .25rem;
-    color: white;
+    color: #e0f5ff;
 }
 
 .skills__subtitle {
     font-size: var(--tiny-font-size);
-    color: whitesmoke;
+    color: rgb(210, 213, 249);
 }
 
 .skills__blob:hover {
