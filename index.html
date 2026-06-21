@@ -16,42 +16,42 @@
 
 
     <!-- Header start -->
-    <header class="bg-white top-0 left-0 w-full flex items-center z-10 shadow-sm">
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
         <div class="container">
             <div class="flex items-center justify-between relative">
                 <div class="px-4">
-                    <a href="#home" class="font-bold text-lg text-primary block py-6 hover:text-primary3">JuanFakhri</a>
+                    <a href="#home" class="font-bold text-lg text-primary2 block py-6 hover:text-teal-600">JuanFakhri</a>
                 </div>
                 <div class="flex items-center px-4">
-                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 md:hidden">
                         <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
                         <span class="hamburger-line transition duration-300 ease-in-out"></span>
                         <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
                     </button>
 
                     <nav id="nav-menu"
-                        class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
-                        <ul class="block lg:flex">
+                        class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full md:block md:static md:bg-transparent md:max-w-full md:shadow-none md:rounded-none">
+                        <ul class="block md:flex">
                             <li class="group">
                                 <a href="#home"
-                                    class="text-base text-dark py-2 mx-5 flex group-hover:text-primary3">Beranda</a>
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-teal-600">Beranda</a>
                             </li>
                             <li class="group">
                                 <a href="#about"
-                                    class="text-base text-dark py-2 mx-5 flex group-hover:text-primary3">Tentang
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-teal-600">Tentang
                                     Saya</a>
                             </li>
                             <li class="group">
                                 <a href="#portfolio"
-                                    class="text-base text-dark py-2 mx-5 flex group-hover:text-primary3">Portfolio</a>
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-teal-600">Portfolio</a>
                             </li>
                             <li class="skill">
                                 <a href="#skill"
-                                    class="text-base text-dark py-2 mx-5 flex group-hover:text-primary3">Keahlian</a>
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-teal-600">Keahlian</a>
                             </li>
                             <li class="group">
                                 <a href="#contact"
-                                    class="text-base text-dark py-2 mx-5 flex group-hover:text-primary3">Kontak</a>
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-teal-600">Kontak</a>
                             </li>
                         </ul>
                     </nav>
@@ -62,14 +62,14 @@
     <!-- Header end -->
 
     <!-- Hero section start -->
-    <section id="home" class="pt-16">
+    <section id="home" class="pt-28 sm:pt-32 md:pt-36">
         <div class="container">
-            <div class="flex flex-wrap items-center">
-                <div class="w-full self-center px-4 lg:w-1/2">
-                    <h1 class="text-base font-semibold text-primary md:text-xl">Halo 👋, Perkenalkan Saya
-                        <span class="block font-bold text-dark text-4xl mt-1.5 lg:text-5xl">Juan Fakhri</span>
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 md:w-1/2">
+                    <h1 class="text-base font-semibold text-primary2 md:text-xl">Halo 👋, Perkenalkan Saya
+                        <span class="block font-extrabold tracking-tight text-dark text-3xl mt-2 mb-1 sm:text-4xl lg:text-5xl">Juan Fakhri</span>
                     </h1>
-                    <h2 class="font-medium text-secondary text-lg mb-5 lg:text-2xl "> <span class="text-dark">Data
+                    <h2 class="font-medium text-secondary text-lg mb-6 lg:text-2xl "> <span class="text-dark">Data
                             Analys</span> |
                         <span class="text-dark">Data Scientist </span> <br> | UI/UX & Web
                         Designer
@@ -81,19 +81,13 @@
                         bermanfaat bagi perusahaan.</p>
 
                     <a href="https://wa.me/6282225386559?text=Assalamu%27alaikum%2C%20"
-                        class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:bg-cyan-400">Hubungi
+                        class="text-base font-semibold text-white bg-primary2 py-3 px-8 rounded-full hover:shadow-lg hover:bg-teal-600">Hubungi
                         Saya</a>
                 </div>
-                <div class="w-full px-4 lg:w-1/2">
-                    <div class="relative mt-10 lg:mt-0">
-                        <img src="dist/img/pasfoto.png" alt="Juan Fakhri" class="max-w-full mx-auto">
-                        <span class="absolute -bottom-0 -z-10 left-1/3 -translate-x-1/3">
-                            <svg width="445" height="600" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                                <path fill="#0E38E9"
-                                    d="M38.3,-43.7C46.3,-30.4,47,-15.2,44,-3C40.9,9.1,34.2,18.3,26.2,33.2C18.3,48.1,9.1,68.8,-2.4,71.2C-14,73.7,-28.1,57.9,-43.3,43C-58.6,28.1,-75.1,14,-74.3,0.8C-73.4,-12.4,-55.3,-24.8,-40,-38C-24.8,-51.3,-12.4,-65.5,1.4,-66.9C15.2,-68.3,30.4,-56.9,38.3,-43.7Z"
-                                    transform="translate(100 100) scale(1.2)" />
-                            </svg>
-                        </span>
+                <div class="w-full self-end px-4 md:w-1/2">
+                    <div class="relative mt-10 lg:mt-9 lg:right-0">
+                        <img src="dist/img/pasfoto.png" alt="Juan Fakhri" class="max-w-[280px] sm:max-w-sm md:max-w-full mx-auto relative z-0">
+                        <span class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -z-10 block rounded-full bg-primary2 w-[220px] h-[220px] sm:w-[300px] sm:h-[300px] md:w-[380px] md:h-[380px] lg:w-[480px] lg:h-[480px]"></span>
                     </div>
                 </div>
             </div>
@@ -102,12 +96,12 @@
     <!-- Hero section end -->
 
     <!-- About section start -->
-    <section id="about" class="pt-36 pb-32">
+    <section id="about" class="pt-24 pb-20 md:pt-32 md:pb-28 lg:pt-36 lg:pb-32">
         <div class="container">
             <div class="flex flex-wrap">
-                <div class="w-full px-4 mb-10 lg:w-1/2">
-                    <h4 class="font-bold uppercase text-primary text-lg mb-3">Tentang Saya</h4>
-                    <h2 class="font-bold text-dark text-3xl mb-5 max-w-xl lg:text-3xl">Saya Seorang <span
+                <div class="w-full px-4 mb-10 md:w-1/2">
+                    <h4 class="font-bold uppercase text-primary2 text-lg mb-3 tracking-wide">Tentang Saya</h4>
+                    <h2 class="font-extrabold tracking-tight text-dark text-2xl mb-5 max-w-xl sm:text-3xl">Saya Seorang <span
                             class="text-dark">Data
                             Analys</span> | Data Scientist | <span class="text-secondary "> UI/UX & Web Designer</span>
 
@@ -122,14 +116,14 @@
 
                     </p>
                 </div>
-                <div class="w-full px-4 lg:w-1/2 lg:pl-20">
-                    <h3 class="font-semibold text-dark text-2xl mb-4 lg:text-2xl lg:pt-10 ">Mari Berteman</h3>
+                <div class="w-full px-4 md:w-1/2 md:pl-8 lg:pl-20">
+                    <h3 class="font-extrabold tracking-tight text-dark text-2xl mb-4 lg:text-2xl lg:pt-10 ">Mari Berteman</h3>
                     <p class="font-medium text-base text-secondary mb-6 lg:text-lg">Silahkan kunjungi social media
                         dibawah ini</p>
                     <div class="flex items-center">
                         <!-- Youtube -->
                         <a href="https://www.youtube.com/@juanfakhri1056" target="_blank"
-                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary2 hover:bg-primary3 hover:text-white">
+                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary2 hover:bg-primary2 hover:text-white">
                             <svg role="img" width="20" class="fill-current bounce-animate" viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <title>YouTube</title>
@@ -139,7 +133,7 @@
                         </a>
                         <!-- linkedin -->
                         <a href="https://www.linkedin.com/in/juan-fakhri" target="_blank"
-                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary2 hover:bg-primary3 hover:text-white">
+                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary2 hover:bg-primary2 hover:text-white">
                             <svg role="img" width="20" class="fill-current bounce-animate" viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <title>LinkedIn</title>
@@ -149,7 +143,7 @@
                         </a>
                         <!-- Github -->
                         <a href="https://github.com/JuanFakhri" target="_blank"
-                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary2 hover:bg-primary3 hover:text-white">
+                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary2 hover:bg-primary2 hover:text-white">
                             <svg role="img" width="20" class="fill-current bounce-animate" viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <title>GitHub</title>
@@ -166,12 +160,12 @@
     <!-- About section end -->
 
     <!-- Portfolio section start -->
-    <section id="portfolio" class="pt-36 pb-16 bg-slate-100">
+    <section id="portfolio" class="pt-24 pb-16 md:pt-32 lg:pt-36 bg-slate-100">
         <div class="container">
             <div class="w-full px-4">
                 <div class="max-w-xl mx-auto text-center mb-16">
-                    <h4 class="font-semibold text-lg text-primary mb-2">Portfolio</h4>
-                    <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Project Saya</h2>
+                    <h4 class="font-semibold text-lg text-primary2 mb-2">Portfolio</h4>
+                    <h2 class="font-extrabold tracking-tight text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Project Saya</h2>
                     <p class="font-medium text-md text-secondary">Saya dengan bangga mempersembahkan proyek portfolio
                         terbaru saya! 🚀 Ini adalah hasil dari
                         kreativitas dan kerja keras saya yang telah dirancang secara teliti untuk bukti secara teliti
@@ -179,34 +173,37 @@
                 </div>
             </div>
 
-            <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
-                <div class="mb-12 p-4 md:w-1/2">
+            <div class="w-full px-4 flex flex-wrap justify-center xl:w-11/12 xl:mx-auto">
+                <div class="mb-12 p-4 w-full md:w-1/2 lg:w-1/3">
                     <div class="rounderd-md shadow-md overflow-hidden">
-                        <img src="dist/img/portfolio/project1.PNG" alt="Machinelearning Naive Bayes" width="w-full">
+                        <img src="dist/img/portfolio/project1.PNG" alt="Machinelearning Naive Bayes"
+                            class="w-full h-48 sm:h-56 object-cover">
                     </div>
                     <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Machinelearning Naive Bayes</h3>
                     <p class="font-medium text-base text-secondary">Dalam proyek ini, saya telah memanfaatkan pendekatan
                         Naive Bayes untuk mengembangkan model prediktif yang dapat melakukan klasifikasi data dengan
                         akurasi tinggi. Bisa kunjungi : <a
                             href="https://mahou07-naivebayestest-app-w0j7d2.streamlit.app/"
-                            class="hover:text-primary3">https://mahou07-naivebayestest-app-w0j7d2.streamlit.app/</a>
+                            class="hover:text-teal-600">https://mahou07-naivebayestest-app-w0j7d2.streamlit.app/</a>
                         📈✅</p>
                 </div>
-                <div class="mb-12 p-4 md:w-1/2">
+                <div class="mb-12 p-4 w-full md:w-1/2 lg:w-1/3">
                     <div class="rounderd-md shadow-md overflow-hidden">
-                        <img src="dist/img/portfolio/Project2.PNG" alt="Machinelearning Naive Bayes" width="w-full">
+                        <img src="dist/img/portfolio/Project2.PNG" alt="Auto Machine Learning"
+                            class="w-full h-48 sm:h-56 object-cover">
                     </div>
                     <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Auto Machine Learning</h3>
                     <p class="font-medium text-base text-secondary">Website ini didedikasikan untuk memperlihatkan
                         kemampuan saya dalam mengimplementasikan Auto Machine Learning (AutoML) dalam mengembangkan
                         model machine learning secara otomatis. 📊🔬 Bisa kunjungi : <a
                             href="https://github.com/JuanFakhri/Auto-Machine"
-                            class="hover:text-primary3">https://github.com/JuanFakhri/Auto-Machine</a>
+                            class="hover:text-teal-600">https://github.com/JuanFakhri/Auto-Machine</a>
                     </p>
                 </div>
-                <div class="mb-12 p-4 md:w-1/2">
+                <div class="mb-12 p-4 w-full md:w-1/2 lg:w-1/3">
                     <div class="rounderd-md shadow-md overflow-hidden">
-                        <img src="dist/img/portfolio/Project3.PNG" alt="Mall Customer Segmentation Data" width="w-full">
+                        <img src="dist/img/portfolio/Project3.PNG" alt="Mall Customer Segmentation Data"
+                            class="w-full h-48 sm:h-56 object-cover">
                     </div>
                     <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Mall Customer Segmentation Data</h3>
                     <p class="font-medium text-base text-secondary">Selamat datang di portfolio data science saya yang
@@ -215,28 +212,28 @@
                         kemampuan saya dalam menganalisis dan mengelompokkan data pelanggan mal menggunakan teknik
                         segmentasi 💡🔬. Bisa kunjungi : <a
                             href="https://github.com/JuanFakhri/Mall_Customer_Segmentation_Data"
-                            class="hover:text-primary3">https://github.com/JuanFakhri/Mall_Customer_Segmentation_Data</a>
+                            class="hover:text-teal-600">https://github.com/JuanFakhri/Mall_Customer_Segmentation_Data</a>
                         📈✅</p>
                 </div>
-                <div class="mb-12 p-4 md:w-1/2">
+                <div class="mb-12 p-4 w-full md:w-1/2 lg:w-1/3">
                     <div class="rounderd-md shadow-md overflow-hidden">
                         <img src="dist/img/portfolio/Project4.PNG" alt="Default Dataset Klien Kartu Kredit"
-                            width="w-full">
+                            class="w-full h-48 sm:h-56 object-cover">
                     </div>
                     <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Default Dataset Klien Kartu Kredit</h3>
-                    <p class="font-medium text-base text-secondary">Mall Customer Segmentation Data</h3>
                     <p class="font-medium text-base text-secondary">Selamat datang di portfolio data science saya yang
                         menampilkan proyek Default Dataset Klien Kartu Kredit! 📊🛍️. Portfolio ini didedikasikan untuk
                         memamerkan kemampuan saya dalam menganalisis dan menggali wawasan dari dataset yang berhubungan
                         dengan default pembayaran klien kartu kredit 💡🔬. Bisa kunjungi : <a
                             href="https://github.com/JuanFakhri/Default_Dataset_Klien_Kartu_Kredit"
-                            class="hover:text-primary3">https://github.com/JuanFakhri/Default_Dataset_Klien_Kartu_Kredit</a>
+                            class="hover:text-teal-600">https://github.com/JuanFakhri/Default_Dataset_Klien_Kartu_Kredit</a>
                         📈✅</p>
                 </div>
 
-                <div class="mb-12 p-4 md:w-1/2">
+                <div class="mb-12 p-4 w-full md:w-1/2 lg:w-1/3">
                     <div class="rounderd-md shadow-md overflow-hidden">
-                        <img src="dist/img/portfolio/Project5.PNG" alt="Sistem Monev Penelitian" width="w-full">
+                        <img src="dist/img/portfolio/Project5.PNG" alt="Sistem Monev Penelitian"
+                            class="w-full h-48 sm:h-56 object-cover">
                     </div>
                     <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Sistem Monev Penelitian</h3>
                     <p class="font-medium text-base text-secondary">Selamat datang di portfolio website saya yang
@@ -246,7 +243,7 @@
                         efektif
                         untuk penelitian. 💡🖥️ Bisa kunjungi : <a
                             href="https://github.com/JuanFakhri/Sistem-Monev-Penelitian"
-                            class="hover:text-primary3">https://github.com/JuanFakhri/Sistem-Monev-Penelitian</a>
+                            class="hover:text-teal-600">https://github.com/JuanFakhri/Sistem-Monev-Penelitian</a>
                         📈✅</p>
                 </div>
               
@@ -257,16 +254,16 @@
 
 
     <!-- Skill section start -->
-    <section id="skill" class="pt-36 pb-32 bg bg-slate-600">
+    <section id="skill" class="pt-24 pb-20 md:pt-32 md:pb-28 lg:pt-36 lg:pb-32 bg bg-slate-600">
         <div class="container">
             <div class="w-full px-4">
                 <div class=" mx-auto text-center mb-16">
-                    <h4 class="font-semibold text-lg text-primary mb-2">Keahlian</h4>
-                    <h2 class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl">Kemampuan Yang Dikuasi</h2>
+                    <h4 class="font-semibold text-lg text-primary2 mb-2">Keahlian</h4>
+                    <h2 class="font-extrabold tracking-tight text-white text-3xl mb-4 sm:text-4xl lg:text-5xl">Kemampuan Yang Dikuasi</h2>
                 </div>
             </div>
             <div class="flex flex-wrap">
-                <div class="w-full px-4 mb-10 lg:w-1/2">
+                <div class="w-full px-4 mb-10 md:w-1/2">
                     <div class="skill__container container grid section__border ">
                         <!--=================== SKILLS 1 =======================-->
                         <div class="skills__content">
@@ -276,7 +273,7 @@
 
                             <div class="skills__info ">
                                 <div class="skills__data ">
-                                    <div class="skills__blob border hover:border-primary ">
+                                    <div class="skills__blob border hover:border-primary2 ">
                                         <img src="dist/img/html-1.svg" alt="skills image">
                                     </div>
                                     <h3 class="skills__name">HTML</h3>
@@ -284,7 +281,7 @@
                                 </div>
 
                                 <div class="skills__data">
-                                    <div class="skills__blob border hover:border-primary">
+                                    <div class="skills__blob border hover:border-primary2">
                                         <img src="dist/img/css-3.svg" alt="skills image">
                                     </div>
                                     <h3 class="skills__name">CSS</h3>
@@ -292,7 +289,7 @@
                                 </div>
 
                                 <div class="skills__data">
-                                    <div class="skills__blob border hover:border-primary">
+                                    <div class="skills__blob border hover:border-primary2">
                                         <img src="dist/img/logo-javascript.svg" alt="skills image">
                                     </div>
                                     <h3 class="skills__name">JavaScript</h3>
@@ -300,7 +297,7 @@
                                 </div>
 
                                 <div class="skills__data">
-                                    <div class="skills__blob border hover:border-primary">
+                                    <div class="skills__blob border hover:border-primary2">
                                         <img src="dist/img/react-2.svg" alt="skills image">
                                     </div>
                                     <h3 class="skills__name">React</h3>
@@ -308,7 +305,7 @@
                                 </div>
 
                                 <div class="skills__data">
-                                    <div class="skills__blob border hover:border-primary">
+                                    <div class="skills__blob border hover:border-primary2">
                                         <img src="dist/img/git-icon.svg" alt="skills image">
                                     </div>
                                     <h3 class="skills__name">GIT</h3>
@@ -317,7 +314,7 @@
 
 
                                 <div class="skills__data">
-                                    <div class="skills__blob border hover:border-primary">
+                                    <div class="skills__blob border hover:border-primary2">
                                         <img src="dist/img/python-5.svg" alt="skills image">
                                     </div>
                                     <h3 class="skills__name">Pyhton</h3>
@@ -325,7 +322,7 @@
                                 </div>
 
                                 <div class="skills__data">
-                                    <div class="skills__blob border hover:border-primary">
+                                    <div class="skills__blob border hover:border-primary2">
                                         <img src="dist/img/java.svg" alt="skills image">
                                     </div>
                                     <h3 class="skills__name">Java</h3>
@@ -333,7 +330,7 @@
                                 </div>
 
                                 <div class="skills__data">
-                                    <div class="skills__blob border hover:border-primary">
+                                    <div class="skills__blob border hover:border-primary2">
                                         <img src="dist/img/c.svg" alt="skills image">
                                     </div>
                                     <h3 class="skills__name">C++</h3>
@@ -342,7 +339,7 @@
 
 
                                 <div class="skills__data">
-                                    <div class="skills__blob border hover:border-primary">
+                                    <div class="skills__blob border hover:border-primary2">
                                         <img src="dist/img/flutter-logo.svg" alt="skills image">
                                     </div>
                                     <h3 class="skills__name">Flutter</h3>
@@ -351,7 +348,7 @@
 
 
                                 <div class="skills__data">
-                                    <div class="skills__blob border hover:border-primary">
+                                    <div class="skills__blob border hover:border-primary2">
                                         <img src="dist/img/dart.svg" alt="skills image">
                                     </div>
                                     <h3 class="skills__name">Dart</h3>
@@ -359,7 +356,7 @@
                                 </div>
 
                                 <div class="skills__data">
-                                    <div class="skills__blob border hover:border-primary">
+                                    <div class="skills__blob border hover:border-primary2">
                                         <img src="dist/img/excel-4.svg" alt="skills image">
                                     </div>
                                     <h3 class="skills__name">Microsoft Excel</h3>
@@ -367,7 +364,7 @@
                                 </div>
 
                                 <div class="skills__data">
-                                    <div class="skills__blob border hover:border-primary">
+                                    <div class="skills__blob border hover:border-primary2">
                                         <img src="dist/img/word-1.svg" alt=" skills image">
                                     </div>
                                     <h3 class="skills__name">Microsoft Word</h3>
@@ -375,7 +372,7 @@
                                 </div>
 
                                 <div class="skills__data">
-                                    <div class="skills__blob border hover:border-primary">
+                                    <div class="skills__blob border hover:border-primary2">
                                         <img src="dist/img/powerpoint-2.svg" alt="skills image">
                                     </div>
                                     <h3 class="skills__name"> PowerPoint</h3>
@@ -384,7 +381,7 @@
 
 
                                 <div class="skills__data">
-                                    <div class="skills__blob border hover:border-primary">
+                                    <div class="skills__blob border hover:border-primary2">
                                         <img src="dist/img/tableau-software.svg" alt="skills image">
                                     </div>
                                     <h3 class="skills__name">Tableau</h3>
@@ -392,7 +389,7 @@
                                 </div>
 
                                 <div class="skills__data">
-                                    <div class="skills__blob border hover:border-primary">
+                                    <div class="skills__blob border hover:border-primary2">
                                         <img src="dist/img/power-bi-software.svg" alt="skills image">
                                     </div>
                                     <h3 class="skills__name">Power Bi</h3>
@@ -404,7 +401,7 @@
                     </div>
                 </div>
 
-                <div class="w-full px-4 mb-10 lg:w-1/2">
+                <div class="w-full px-4 mb-10 md:w-1/2">
                     <div class="skill__container container grid section__border">
 
 
@@ -417,7 +414,7 @@
                             <div class="skills__info">
 
                                 <div class="skills__data">
-                                    <div class="skills__blob border hover:border-primary">
+                                    <div class="skills__blob border hover:border-primary2">
                                         <img src="dist/img/figma-1.svg" alt="skills image">
                                     </div>
                                     <h3 class="skills__name">Figma</h3>
@@ -426,7 +423,7 @@
 
 
                                 <div class="skills__data">
-                                    <div class="skills__blob border hover:border-primary">
+                                    <div class="skills__blob border hover:border-primary2">
                                         <img src="dist/img/adobe-xd-1.svg" alt="skills image">
                                     </div>
                                     <h3 class="skills__name">Adobe XD</h3>
@@ -434,7 +431,7 @@
                                 </div>
 
                                 <div class="skills__data">
-                                    <div class="skills__blob border hover:border-primary">
+                                    <div class="skills__blob border hover:border-primary2">
                                         <img src="dist/img/adobe-photoshop-2.svg" alt="skills image">
                                     </div>
                                     <h3 class="skills__name">Photoshop</h3>
@@ -453,38 +450,38 @@
 
 
     <!-- Contact section start -->
-    <section id="contact" class="pt-36 pb-32">
+    <section id="contact" class="pt-24 pb-20 md:pt-32 md:pb-28 lg:pt-36 lg:pb-32">
         <div class="container">
             <div class="w-full px-4">
                 <div class="max-w-xl mx-auto text-center mb-16">
-                    <h4 class="font-semibold text-lg text-primary mb-2">Kontak</h4>
-                    <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Hubungi Saya</h2>
+                    <h4 class="font-semibold text-lg text-primary2 mb-2">Kontak</h4>
+                    <h2 class="font-extrabold tracking-tight text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Hubungi Saya</h2>
                 </div>
             </div>
 
             <form action="">
-                <div class="w-full lg:w-2/3 lg:mx-auto">
+                <div class="w-full md:w-2/3 md:mx-auto">
                     <div class="w-full px-4 mb-8">
                         <label for="name"
-                            class="label text-base font-bold text-primary hover:text-primary3">Nama</label>
+                            class="label text-base font-bold text-primary2 hover:text-teal-600">Nama</label>
                         <input type="text" id="name"
-                            class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary3">
+                            class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary2 focus:ring-1 focus:border-primary2">
                     </div>
                     <div class="w-full px-4 mb-8">
                         <label for="email"
-                            class="label text-base font-bold text-primary hover:text-primary3">Gmail</label>
+                            class="label text-base font-bold text-primary2 hover:text-teal-600">Gmail</label>
                         <input type="email" id="email"
-                            class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary3">
+                            class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary2 focus:ring-1 focus:border-primary2">
                     </div>
                     <div class="w-full px-4 mb-8">
                         <label for="pesan"
-                            class="label text-base font-bold text-primary hover:text-primary3">Pesan</label>
+                            class="label text-base font-bold text-primary2 hover:text-teal-600">Pesan</label>
                         <textarea type="text" id="pesan"
-                            class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary3 h-32"> </textarea>
+                            class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary2 focus:ring-1 focus:border-primary2 h-32"> </textarea>
                     </div>
                     <div class="w-full px-4">
                         <button
-                            class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500">Kirim</button>
+                            class="text-base font-semibold text-white bg-primary2 py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500">Kirim</button>
                     </div>
                 </div>
             </form>
@@ -494,11 +491,11 @@
 
 
     <!-- Footer section start -->
-    <footer class="bg-dark pt-24 pb-12">
+    <footer class="bg-dark pt-16 pb-12 md:pt-20 lg:pt-24">
         <div class="container">
             <div class="flex flex-wrap">
                 <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/2">
-                    <h2 class="font-bold text-4xl text-white mb-5">Juan Fakhri</h2>
+                    <h2 class="font-bold text-3xl text-white mb-5 sm:text-4xl">Juan Fakhri</h2>
                     <h3 class="font-bold text-2xl mb-2">Hubungi Saya</h3>
                     <p>WhatsApp : 082225386559</p>
                     <p>Email : juanfakhri02@gmail.com</p>
@@ -506,23 +503,23 @@
                         Ciantra
                     </p>
                 </div>
-                <div class="w-full px-4 mb-12 md:w-1/2 md:pl-60">
+                <div class="w-full px-4 mb-12 md:w-1/2 md:pl-10 lg:pl-32 xl:pl-60">
                     <h3 class="font-semibold text-xl text-white mb-5">Tautan</h3>
                     <ul>
                         <li class=" text-slate-300">
-                            <a href="#home" class="inline-block text-base hover:text-primary3 mb-3">Beranda</a>
+                            <a href="#home" class="inline-block text-base hover:text-teal-600 mb-3">Beranda</a>
                         </li>
                         <li class=" text-slate-300">
-                            <a href="#about" class="inline-block text-base hover:text-primary3 mb-3">Tentang Saya</a>
+                            <a href="#about" class="inline-block text-base hover:text-teal-600 mb-3">Tentang Saya</a>
                         </li>
                         <li class=" text-slate-300">
-                            <a href="#portfolio" class="inline-block text-base hover:text-primary3 mb-3">Portfolio</a>
+                            <a href="#portfolio" class="inline-block text-base hover:text-teal-600 mb-3">Portfolio</a>
                         </li>
                         <li class=" text-slate-300">
-                            <a href="#skill" class="inline-block text-base hover:text-primary3 mb-3">Keahlian</a>
+                            <a href="#skill" class="inline-block text-base hover:text-teal-600 mb-3">Keahlian</a>
                         </li>
                         <li class=" text-slate-300">
-                            <a href="#contact" class="inline-block text-base hover:text-primary3 mb-3">Kontak</a>
+                            <a href="#contact" class="inline-block text-base hover:text-teal-600 mb-3">Kontak</a>
                         </li>
                     </ul>
                 </div>
@@ -532,7 +529,7 @@
                 <div class="flex items-center justify-center mb-5">
                     <!-- Youtube -->
                     <a href="https://www.youtube.com/@juanfakhri1056" target="_blank"
-                        class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary2 hover:bg-primary3 hover:text-white">
+                        class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary2 hover:bg-primary2 hover:text-white">
                         <svg role="img" width="20" class="fill-current bounce-animate" viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg">
                             <title>YouTube</title>
@@ -542,7 +539,7 @@
                     </a>
                     <!-- linkedin -->
                     <a href="https://www.linkedin.com/in/juan-fakhri" target="_blank"
-                        class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary2 hover:bg-primary3 hover:text-white">
+                        class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary2 hover:bg-primary2 hover:text-white">
                         <svg role="img" width="20" class="fill-current bounce-animate" viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg">
                             <title>LinkedIn</title>
@@ -552,7 +549,7 @@
                     </a>
                     <!-- Github -->
                     <a href="https://github.com/JuanFakhri" target="_blank"
-                        class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary2 hover:bg-primary3 hover:text-white">
+                        class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary2 hover:bg-primary2 hover:text-white">
                         <svg role="img" width="20" class="fill-current bounce-animate" viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg">
                             <title>GitHub</title>
