@@ -61,8 +61,32 @@ body {
 }
 
 .skills__info {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.75rem 1rem;
+}
+
+/* Tablet portrait / large phone: still full-width section, room for 3 columns */
+@media (min-width: 640px) {
+    .skills__info {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem 1.5rem;
+    }
+}
+
+/* Tablet landscape and up: section splits into 2 columns, so drop back to 2 to avoid squeezing */
+@media (min-width: 768px) {
+    .skills__info {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem 1.5rem;
+    }
+}
+
+/* Desktop: each half-column has enough room again for 3 */
+@media (min-width: 1024px) {
+    .skills__info {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem 2rem;
+    }
 }
 
 .skills__data {
@@ -104,8 +128,8 @@ body {
 
 /* Animation skills */
 .skills__blob:hover img {
-    animation: bounce-skills .6s duration timing-function delay iteration-count direction fill-mode;
-    -webkit-animation: bounce-skills .6s;
+    animation: bounce-skills .6s ease-in-out;
+    -webkit-animation: bounce-skills .6s ease-in-out;
 }
 
 @keyframes bounce {
