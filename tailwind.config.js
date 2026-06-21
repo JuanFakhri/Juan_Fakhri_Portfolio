@@ -1,10 +1,16 @@
 /** @type {import('tailwindcss').Config} */
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['index.html'],
   theme: {
     container: {
       center: true,
-      padding: '20px',
+      padding: {
+        DEFAULT: '16px',
+        sm: '20px',
+        md: '24px',
+        lg: '32px',
+      },
     },
     extend: {
       colors: {
